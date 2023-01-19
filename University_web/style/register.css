@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+/* body */
+body {
+    background: #eee;
+}
+
+/* form */
+.form-container {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .1);
+    padding: 30px;
+    border-radius: 5px;
+}
+
+/* title */
+.form-container h3 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form-container form {
+    width: 100%;
+}
+
+.form-container form .inputfield {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+/* input name */
+.form-container form .inputfield label {
+    width: 200px;
+    color: #757575;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* input field */
+.form-container form .inputfield .input,
+.form-container form .inputfield .textarea {
+    width: 100%;
+    outline: none;
+    border: 1px solid #d5dbd9;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.form-container form .inputfield .textarea {
+    width: 100%;
+    height: 125px;
+    resize: none;
+}
+
+/* select form */
+.form-container form .inputfield .custom_select {
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+
+.form-container form .inputfield .custom_select:before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    right: 10px;
+    border: 8px solid;
+    border-color: #d5dbd9 transparent transparent transparent;
+    pointer-events: none;
+}
+
+.form-container form .inputfield .custom_select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+    padding: 8px 10px;
+    font-size: 15px;
+    border: 1px solid #d5dbd9;
+    border-radius: 3px;
+}
+
+/* submit button */
+.form-container form .form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    width: 100%;
+    border-radius: 5px;
+    background: #fbd0d9;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover {
+    background: crimson;
+    color: #fff;
+}
+
+/* botton text */
+.text {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+}
+
+.text p a {
+    color: crimson;
+}
+
+/* responsive */
+@media (max-width:420px) {
+    .form-container form .inputfield {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .form-container form .inputfield label {
+        margin-bottom: 5px;
+    }
+
+    .form-container form .inputfield.terms {
+        flex-direction: row;
+    }
+}

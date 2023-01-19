@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header {
+    background-color: black;
+    color: white;
+}
+
+.wrapper {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.wrapper nav {
+    padding-top: 20px;
+}
+
+#wrapper1 {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(image/univ.jpg);
+}
+
+.text-wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* breaking news */
+.breaking-news-section {
+    padding: 5px 30px 0 60px;
+    display: flex;
+}
+
+#btext {
+    width: 200px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ff0800;
+    font-weight: 600;
+    margin: auto 0;
+}
+
+.breaking-news {
+    padding: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+
+.breaking-news:hover,
+.social-icons i:hover {
+    color: #ff0800;
+    cursor: pointer;
+}
+
+.bntime {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+/* news */
+.carousel {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.carousel .carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+article {
+    padding-top: 20px;
+}
+
+section h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-item {
+    height: 32rem;
+    background: #000;
+    color: white;
+    position: relative;
+
+}
+
+#container-carousel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* perlu penyesuaian untuk ukuran tablet dan mobile */
+    padding: 0 100px 50px 100px;
+}
+
+.overlay-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: .3;
+}
+
+#container-carousel h2 {
+    text-align: center;
+}
+
+article {
+    padding-bottom: 10px;
+}
+
+/* announcement */
+
+#announcement-container .row {
+    padding-top: 40px;
+}
+
+#announcement {
+    padding-bottom: 70px;
+}
+
+
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .sosmed {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .sosmed li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer .sosmed li a {
+    font-size: 1.5rem;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+}

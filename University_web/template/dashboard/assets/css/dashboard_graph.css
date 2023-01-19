@@ -1,0 +1,54 @@
+.graphBox {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    min-height: 200px;
+}
+
+.graphBox .box {
+    position: relative;
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 7px 25px rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+@media (max-width: 860px) {
+    .graphBox .box {
+        width: 95%;
+    }
+}
+
+#announcement ul li {
+    background-color: #fff;
+}
+
+#announcement ul li i {
+    font-size: 20px;
+}
+
+#announcement span {
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+    .main-panel #menu1 h5 {
+        font-size: 15px;
+    }
+
+    .main-panel #menu1 h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .main-panel #menu1 h5 {
+        font-size: 20px;
+    }
+
+    .main-panel #menu1 h3 {
+        font-size: 20px;
+    }
+}
