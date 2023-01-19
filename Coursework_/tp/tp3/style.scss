@@ -1,0 +1,90 @@
+$x: center;
+$color: white;
+
+.wrapper {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/banner2.jpg);
+    background-size: cover;
+    background-position: $x;
+    text-align: $x;
+}
+
+.wrapper h1 {
+    padding-top: 250px;
+    padding-bottom: 0;
+    color: $color;
+    font-size: 50px;
+}
+
+.wrapper p {
+    color: $color;
+    font-size: 20px;
+}
+
+.content {
+    color: black;
+    font-size: 30px;
+    text-align: $x;
+}
+
+.content h1 {
+    padding-top: 80px;
+    text-align: $x;
+}
+
+.container p {
+    font-size: 15px;
+}
+
+#container1 {
+    padding-top: 40px;
+    padding-left: 50px;
+}
+
+#container1 #row2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+#container1 img {
+    height: 190px;
+}
+
+#container2 {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+#container2 .user-review {
+    height: 300px;
+}
+
+.user-review {
+    text-align: $x;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.5);
+}
+
+.user-review p {
+    padding: 0px 20px 20px 20px;
+}
+
+.user-review img {
+    position: relative;
+    margin: -50px 95px 20px;
+}
+
+/* footer */
+footer {
+    padding-top: 10px;
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(#2d557d, #9610fb);
+    text-align: $x;
+    justify-content: $x;
+    font-weight: bold;
+    color: $color;
+}
+
+footer a {
+    color: $color;
+}

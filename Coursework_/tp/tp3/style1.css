@@ -1,0 +1,89 @@
+.wrapper {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(image/banner2.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.wrapper h1 {
+  padding-top: 250px;
+  padding-bottom: 0;
+  color: white;
+  font-size: 50px;
+}
+
+.wrapper p {
+  color: white;
+  font-size: 20px;
+}
+
+.content {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+
+.content h1 {
+  padding-top: 80px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 15px;
+}
+
+#container1 {
+  padding-top: 40px;
+  padding-left: 50px;
+}
+
+#container1 #row2 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#container1 img {
+  height: 190px;
+}
+
+#container2 {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+#container2 .user-review {
+  height: 300px;
+}
+
+.user-review {
+  text-align: center;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 100, 0.5);
+}
+
+.user-review p {
+  padding: 0px 20px 20px 20px;
+}
+
+.user-review img {
+  position: relative;
+  margin: -50px 95px 20px;
+}
+
+/* footer */
+footer {
+  padding-top: 10px;
+  height: 100px;
+  width: 100%;
+  background-image: linear-gradient(#2d557d, #9610fb);
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  color: white;
+}
+
+footer a {
+  color: white;
+}
+
+/*# sourceMappingURL=style1.css.map */

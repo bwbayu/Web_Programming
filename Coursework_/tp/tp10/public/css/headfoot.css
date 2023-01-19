@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+.wrapper {
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.wrapper nav {
+    padding-top: 20px;
+}
+
+/* footer */
+footer {
+    position: relative;
+    width: 100%;
+    background: black;
+    min-height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .sosmed,
+.menu {
+    position: relative;
+    display: flex;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+
+footer .sosmed li,
+.menu li {
+    list-style: none;
+}
+
+footer ul li a {
+    color: white;
+    display: inline-block;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+footer .sosmed li a {
+    font-size: 1.5rem;
+}
+
+footer .menu li a {
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+}
