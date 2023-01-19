@@ -1,0 +1,45 @@
+#wrapperc {
+    height: 70vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/career.jpg);
+}
+
+#text-wrapper-career {
+    margin-top: 120px;
+}
+
+#jobs {
+    padding: 50px 0;
+}
+
+.job-list {
+    box-shadow: 0 2px 70px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.job-detail {
+    background: white;
+    padding: 30px 20px;
+    border-radius: 5px;
+}
+
+.job-detail p,
+ul li {
+    font-size: 15px;
+}
+
+.apply-btn {
+    background-color: #6D7779;
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+}
+
+.apply-btn button {
+    width: 100px;
+    float: right;
+}
+
+.apply-btn a {
+    text-decoration: none;
+    color: white;
+}
